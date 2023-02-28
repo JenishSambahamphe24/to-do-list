@@ -1,0 +1,44 @@
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 20vh;
+    background-color: aquamarine;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 10px;
+}
+.flex-container div input{
+    width: 600px;
+    height: 45px;
+}
+.flex-container .addbtn{
+    height: 45px;
+    border: 1px solid black;
+    width: 100px;
+}
+.flex-container .addbtn:hover{
+    cursor:pointer;
+    background: rgb(82, 175, 146);
+    color: white;
+}
+ul .list-group-item{
+    margin: auto;
+    width: 600px;
+    height: auto;
+}
+.list ul i{
+    width: 45px;
+}
+.list ul i:hover{
+    cursor: pointer;
+    background: rgb(223, 56, 56);
+}
+/* // change color while u hover on the list// */
+.itemList li:hover{
+ background-color: rgb(189, 225, 228);
+}
+
+
+
